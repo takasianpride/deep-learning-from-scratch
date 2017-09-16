@@ -8,9 +8,9 @@ def AND(x1, x2):
 	b = -0.7
 	tmp = np.sum(w*x) + b
 	if tmp <= 0:
-			return 0
+		return 0
 	else:
-			return 1
+		return 1
 
 if __name__ == '__main__':
 	for xs in [0,0], [0,1], [1,0], [1,1]:
